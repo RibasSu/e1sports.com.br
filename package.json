@@ -1,14 +1,17 @@
 {
-  "name": "e1sports.com.br",
+  "name": "e1sports",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A Node.js application for scanning network ports",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "build": "docker build -t e1sports .",
+    "run": "docker run -p 3000:3000 e1sports",
+    "docker:run": "./run.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "André Ribas",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2",
     "fs": "^0.0.1-security",
