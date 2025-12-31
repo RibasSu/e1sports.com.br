@@ -13,7 +13,7 @@
   "author": "André Ribas",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^4.22.1",
     "fs": "^0.0.1-security",
     "net": "^1.0.2",
     "path": "^0.12.7"
